@@ -5,6 +5,7 @@ import { Menu, X, Sun, Moon } from "lucide-react";
 const links = [
   { name: "Home", href: "#hero" },
   { name: "About", href: "#about" },
+   { name: "Experience", href: "#experience" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
@@ -33,7 +34,7 @@ export default function Navbar({ darkMode, toggleTheme }) {
           ))}
         </div>
 
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 hidden">
           {/* Theme Toggle Button */}
           <button
             onClick={toggleTheme}

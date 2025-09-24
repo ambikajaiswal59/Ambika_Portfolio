@@ -61,7 +61,7 @@ export default function Projects() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
       >
-        My <span className="text-white">Projects</span>
+        My <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Projects</span>
       </motion.h2>
 
       <div className="relative z-10 max-w-6xl mx-auto grid gap-12 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
@@ -89,8 +89,8 @@ export default function Projects() {
                 <h3 className="text-2xl font-bold mb-2 text-white">{project.title}</h3>
                 <p className="text-gray-400 mb-4">{project.description}</p>
                 <div className="flex items-center text-gray-500 text-sm mb-4">
-                    <FaLaptopCode className="mr-2 text-purple-400" />
-                    <span>{project.techStack}</span>
+                  <FaLaptopCode className="mr-2 text-purple-400" />
+                  <span>{project.techStack}</span>
                 </div>
                 <div className="flex items-center text-purple-400 font-medium group-hover:text-pink-400 transition-colors duration-300">
                   <span className="mr-2">View Project</span>

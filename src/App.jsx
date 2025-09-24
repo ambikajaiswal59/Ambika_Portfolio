@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Projects from './components/Project';
 import ThemeToggle from "./components/UI/ThemeToggle";
+import Experience from "./components/Expirence";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
  // Load theme from localStorage on mount
@@ -37,6 +38,7 @@ function App() {
       <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
         <Hero />
         <About />
+        <Experience />
         <Skills />
         <Projects />
         <Contact />

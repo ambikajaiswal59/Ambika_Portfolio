@@ -5,8 +5,9 @@ import {
   FaFigma,
   FaMicrosoft,
   FaDatabase,
+  FaGlobeAmericas,
 } from "react-icons/fa";
-import { SiMongodb, SiTailwindcss } from "react-icons/si";
+import { SiMongodb, SiTailwindcss, SiPostman } from "react-icons/si"; // <-- Added SiPostman
 import { MdWidgets } from "react-icons/md";
 
 const skills = [
@@ -18,6 +19,8 @@ const skills = [
   { name: "SQL", icon: <FaDatabase size={32} color="#D19036" /> },
   { name: "MongoDB", icon: <SiMongodb size={32} color="#47A248" /> },
   { name: ".NET", icon: <FaMicrosoft size={32} color="#512BD4" /> },
+  { name: "GIS", icon: <FaGlobeAmericas size={32} color="#34C759" /> },
+  { name: "Postman", icon: <SiPostman size={32} color="#FF6C37" /> }, // <-- Added Postman with its brand color
 ];
 
 const containerVariants = {
